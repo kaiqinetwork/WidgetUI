@@ -1,0 +1,23 @@
+2.0.3.0
+* Fixed: 修复WebBrowser里BeforeNavigate2字符串转换错误bug
+* Fixed: 修改paint没有删除导致最小化时cpu很高的问题
+
+2.0.2.0
+* Added: WebBrowser增加了加载动画和设置背景色支持
+
+2.0.1.1
+* Improved: Window，Label，PushButton，PrgressBar中部分private函数和变量改为protected
+
+2.0.0.1
+* Added: 增加ActiveX控件，WebBrowser控件
+* Improved: 代码重构移除了MFC依赖
+
+1.1.2.1
+* Fixed: 修复PushButton无效后手势没变为指针问题
+
+1.1.1.1
+* Added: CWUIGraphic::DrawImage新增Smooth参数
+* Added: 宿主窗口新增MouseLeave处理
+
+1.0.0.1
+* Added: 新增定时器CWUITimer类，提供定时器功能
