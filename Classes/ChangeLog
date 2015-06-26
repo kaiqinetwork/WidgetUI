@@ -1,3 +1,6 @@
+2.0.4.0
+* Fixed: 修复ax控件退出时析构函数里的bug
+
 2.0.3.0
 * Fixed: 修复WebBrowser里BeforeNavigate2字符串转换错误bug
 * Fixed: 修改paint没有删除导致最小化时cpu很高的问题

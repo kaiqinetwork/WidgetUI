@@ -16,13 +16,11 @@
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// 中文(中华人民共和国) resources
+// 中文(简体，中国) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
-#ifdef _WIN32
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
 #pragma code_page(936)
-#endif //_WIN32
 
 #ifdef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
@@ -69,8 +67,8 @@ END
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 2,0,3,0
- PRODUCTVERSION 2,0,3,0
+ FILEVERSION 2,0,4,0
+ PRODUCTVERSION 2,0,4,0
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -87,12 +85,12 @@ BEGIN
         BEGIN
             VALUE "CompanyName", "开启网络科技有限公司"
             VALUE "FileDescription", "WidgetUI"
-            VALUE "FileVersion", "2.0.3.0"
+            VALUE "FileVersion", "2.0.4.0"
             VALUE "InternalName", "WidgetUI.dll"
             VALUE "LegalCopyright", "Copyright (c) 2012 开启网络科技有限公司保留所有权利"
             VALUE "OriginalFilename", "WidgetUI.dll"
             VALUE "ProductName", "WidgetUI"
-            VALUE "ProductVersion", "2.0.3.0"
+            VALUE "ProductVersion", "2.0.4.0"
         END
     END
     BLOCK "VarFileInfo"
@@ -101,7 +99,7 @@ BEGIN
     END
 END
 
-#endif    // 中文(中华人民共和国) resources
+#endif    // 中文(简体，中国) resources
 /////////////////////////////////////////////////////////////////////////////
 
 

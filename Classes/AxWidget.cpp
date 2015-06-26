@@ -215,7 +215,6 @@ AxWidget::~AxWidget()
 {
 	if ( m_pContainer != NULL ) 
 	{
-		delete m_pContainer;
 		m_pContainer->Release();
 		m_pContainer = NULL;
 	}
@@ -382,6 +381,7 @@ bool AxWidget::DoCreateControl()
 	if (m_bCreated || m_pContainer != NULL)
 		return false;
 	m_pContainer = new AxContainer();
+	m_pContainer->AddRef();
 	if (m_pContainer == NULL)
 		return false;
 
@@ -491,6 +491,7 @@ AxContainer::~AxContainer()
 	{
 		::DestroyWindow(*m_pWindow);
 		delete m_pWindow;
+		m_pWindow = NULL;
 	}
 	m_hwndHost = NULL;	
 	if (m_pAxWidge != NULL)
